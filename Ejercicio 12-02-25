@@ -1,0 +1,14 @@
+numero=int(input("ingrese un numero entre 1-9:"))
+resultado=" "
+
+if numero<=3:
+    resultado=numero*"I"
+elif numero ==5:
+    resultado="V"
+elif numero<=8:
+    resultado= "V" +(numero-5)*"I"
+elif numero == 4:
+    resultado= "IV"
+elif numero == 9:
+    resultado= "IX"
+print(resultado)
